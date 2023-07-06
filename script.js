@@ -3,8 +3,8 @@ let videoElement = document.getElementById('error-video');
 let imgElement = document.getElementById('error-img');
 
 let getVideo = function(){
-    let numb = Math.floor(Math.random() * 9) + 1;
-    videoElement.src = './videos/' + 9 + '.mp4';
+    let video = Math.floor(Math.random() * 9) + 1;
+    videoElement.src = './videos/' + video + '.mp4';
     window.addEventListener('DOMContentLoaded', function() {
         videoElement.width = screenWidth;  
     })
